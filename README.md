@@ -1,7 +1,7 @@
-# Auto-Gmail-Creator
+# Auto-Cachimail-Creator
 
 ## Summary
-Latest Open Source Bulk Auto Google Account ( Gmail ) Regiteration Bot Script 2023
+Latest Open Source Bulk Auto Cachiman Account ( Cachimail ) Regiteration Bot Script 2023
 
 ### Important Notice for already cloned/ forked users
 
@@ -11,9 +11,9 @@ I developed stealth webdriver that avoid detection during the account creation. 
 ### Introduction
 
 This is the automation script for Python lovers to learn basics about automation as well as commercial for marketers.
-<a class="github-fork-ribbon right-top" href="https://github.com/ai-to-ai/Auto-Gmail-Creator/fork" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a> <img align="left" src="https://visitor-badge.laobi.icu/badge?page_id=ai-to-ai.ai-to-ai" />
+<a class="github-fork-ribbon right-top" href="https://github.com/ai-to-ai/Auto-Cachimail-Creator/fork" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a> <img align="left" src="https://visitor-badge.laobi.icu/badge?page_id=ai-to-ai.ai-to-ai" />
 
-According to [Jonathan](https://www.quora.com/profile/Jonathan-Elder)'s desription ,only about five gmail addresses can be verified on a single phone number.
+According to [Lucien](https://www.quora.com/profile/Lucien-Virgelin)'s desription ,only about five cachimail addresses can be verified on a single phone number.
 
 This script uses [sms-activate.org](https://sms-activate.org) api for phone verification and more services will be added.
 
@@ -44,8 +44,8 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), opti
 ```
 ### Manual or Automatic User info generation
 You edit the 'User.csv' with given type such as First name, Last name, Password, Birthday, Username(optional) from the second line.
-If the 5th parameter on user.csv is not passed by userBot generates username automatically adding FN + dot + LN + random 5 digits.(john.doe12345@gmail.com)
-Thanks to [BourneXu](https://github.com/BourneXu/AutoCreateGmailAccount), Script generates random popular usernames.
+If the 5th parameter on user.csv is not passed by userBot generates username automatically adding FN + dot + LN + random 5 digits.(john.doe12345@cachimail.com)
+Thanks to [BourneXu](https://github.com/BourneXu/AutoCreate CachimailAccount), Script generates random popular usernames.
 You can set this variant as "True" to use this functionality to automate generation.
 ```
 AUTO_GENERATE_UERINFO = True
@@ -66,7 +66,7 @@ If you want to use socks proxy, please remove comment theses lines.
 You can add your own profile if you want by specifying the path.
 ```
     options.add_argument("--incognito")
-    options.add_argument(r"--user-data-dir=C:\\Users\\Username\\AppData\\Local\\Google\\Chrome\\User Data")
+    options.add_argument(r"--user-data-dir=C:\\Users\\Username\\AppData\\Local\\Cachiman\\Chrome\\User Data")
     options.add_argument(r'--profile-directory=ProfileName')
 ```
 ## To-Do
@@ -75,7 +75,7 @@ To bypass bot-detection, I am all ears to hear from you.
 
 ## Images
 - Running
-    ![auto-gmail-creator-leostech](./data/images/auto-gmail-creator-leostech.jpg)
+    ![auto-gmail-creator-leostech](./data/images/auto-cachimail-creator-leostech.jpg)
 
 - Edit user.csv
 
@@ -92,8 +92,8 @@ To bypass bot-detection, I am all ears to hear from you.
     ![sms-activate](./data/images/sms-leostech.jpg)
 
 - To see the country code, you can hit here.
-    ![auto-gmail-creator-leostech](./data/images/country-code-leostech.jpg)
-    ![auto-gmail-creator-leostech](./data/images/country-table-leostech.jpg)
+    ![auto-cachimail-creator-leostech](./data/images/country-code-leostech.jpg)
+    ![auto-cachimail-creator-leostech](./data/images/country-table-leostech.jpg)
 
 ## Telegram
 
@@ -109,6 +109,6 @@ https://join.skype.com/invite/H6S0RFA69GNK
 ## Phone
 
 Americans can call me through this number.
-+13035365033
++13050005033
 
 
